@@ -1,0 +1,37 @@
+{
+  "N": 195568,
+  "tab_X1": {
+    "warszawa": {"liczba_obs": 59246, "sr_cena_m2": 17333, "min_cena": 150000, "max_cena": 3250000, "sr_pow_m2": 59.8, "sr_odl_centrum_km": 6.03},
+    "krakow":   {"liczba_obs": 29026, "sr_cena_m2": 15983, "min_cena": 200000, "max_cena": 2980000, "sr_pow_m2": 57.2, "sr_odl_centrum_km": 4.01},
+    "wroclaw":  {"liczba_obs": 20200, "sr_cena_m2": 12897, "min_cena": 165000, "max_cena": 2450000, "sr_pow_m2": 58.4, "sr_odl_centrum_km": 3.65},
+    "gdansk":   {"liczba_obs": 19210, "sr_cena_m2": 14536, "min_cena": 155000, "max_cena": 2800000, "sr_pow_m2": 59.0, "sr_odl_centrum_km": 4.74},
+    "poznan":   {"liczba_obs": 7705,  "sr_cena_m2": 10772, "min_cena": 150000, "max_cena": 2100000, "sr_pow_m2": 61.1, "sr_odl_centrum_km": 3.46},
+    "lodz":     {"liczba_obs": 15300, "sr_cena_m2": 8184,  "min_cena": 150000, "max_cena": 1750000, "sr_pow_m2": 54.2, "sr_odl_centrum_km": 3.77}
+  },
+  "tab_X2": {
+    "2023-08": {"sr_cena_m2": 12008, "liczba_obs": 18905},
+    "2023-09": {"sr_cena_m2": 12197, "liczba_obs": 16997, "zmiana_mm_proc": 1.6, "skum_zmiana_proc": 1.6},
+    "2023-10": {"sr_cena_m2": 12518, "liczba_obs": 16690, "zmiana_mm_proc": 2.6, "skum_zmiana_proc": 4.2},
+    "2023-11": {"sr_cena_m2": 12743, "liczba_obs": 16302, "zmiana_mm_proc": 1.8, "skum_zmiana_proc": 6.1},
+    "2023-12": {"sr_cena_m2": 13610, "liczba_obs": 16483, "zmiana_mm_proc": 6.8, "skum_zmiana_proc": 13.3},
+    "2024-01": {"sr_cena_m2": 13747, "liczba_obs": 15521, "zmiana_mm_proc": 1.0, "skum_zmiana_proc": 14.5},
+    "2024-02": {"sr_cena_m2": 13994, "liczba_obs": 16361, "zmiana_mm_proc": 1.8, "skum_zmiana_proc": 16.5},
+    "2024-03": {"sr_cena_m2": 14248, "liczba_obs": 17318, "zmiana_mm_proc": 1.8, "skum_zmiana_proc": 18.7},
+    "2024-04": {"sr_cena_m2": 14385, "liczba_obs": 19259, "zmiana_mm_proc": 1.0, "skum_zmiana_proc": 19.8},
+    "2024-05": {"sr_cena_m2": 14531, "liczba_obs": 20231, "zmiana_mm_proc": 1.0, "skum_zmiana_proc": 21.0},
+    "2024-06": {"sr_cena_m2": 14608, "liczba_obs": 21501, "zmiana_mm_proc": 0.5, "skum_zmiana_proc": 21.7}
+  },
+  "braki": {"condition": 74.8, "buildingMaterial": 39.6, "buildYear": 16.5},
+  "korelacje": {"buildYear": 0.194, "centreDistance": 0.016},
+  "tab_X3": {
+    "Random Forest - AutoML":        {"R2": 0.831, "RMSE": 1847, "MAE": 1241},
+    "Gradient Boosting - AutoML":    {"R2": 0.849, "RMSE": 1762, "MAE": 1189},
+    "Regresja liniowa - ekspercka":  {"R2": 0.701, "RMSE": 2483, "MAE": 1712},
+    "GB + zmienne BK2% - hybrydowy": {"R2": 0.874, "RMSE": 1598, "MAE": 1074}
+  },
+  "tab_X4": {
+    "VIII-XII 2023 (BK2% aktywny)": {"automl": 2510, "hybryda": 1820},
+    "XII 2023 (panika zakupowa)":   {"automl": 3140, "hybryda": 2080},
+    "I-VI 2024 (BK2% zawieszone)":  {"automl": 1760, "hybryda": 1580}
+  }
+}

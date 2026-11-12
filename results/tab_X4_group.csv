@@ -1,0 +1,19 @@
+model,podokres,RMSE,sredni_blad_proc
+Gradient Boosting - AutoML,VIII-XII 2023 (BK2% aktywny),2025.027973166726,5.178500484061059
+Gradient Boosting - AutoML,XII 2023 (panika zakupowa),1923.5726438768068,-0.054792523427324324
+Gradient Boosting - AutoML,I-VI 2024 (BK2% zawieszone),1968.9537693532627,-3.6032675857886556
+Regresja liniowa - ekspercka,VIII-XII 2023 (BK2% aktywny),2565.4209077112873,0.2360569219944705
+Regresja liniowa - ekspercka,XII 2023 (panika zakupowa),2729.0522653997755,-2.0956974850999455
+Regresja liniowa - ekspercka,I-VI 2024 (BK2% zawieszone),2654.5925042362537,-0.16248525288926371
+GB + zmienne BK2% - hybrydowy,VIII-XII 2023 (BK2% aktywny),1856.7186291793912,0.15077221611125805
+GB + zmienne BK2% - hybrydowy,XII 2023 (panika zakupowa),1953.7257096400544,-0.3374383048685833
+GB + zmienne BK2% - hybrydowy,I-VI 2024 (BK2% zawieszone),1879.5960852775772,-0.1416736687296944
+GB + miesiąc (wrażliwość),VIII-XII 2023 (BK2% aktywny),1833.9829764116598,0.08725015541240809
+GB + miesiąc (wrażliwość),XII 2023 (panika zakupowa),1921.586544736558,0.14248086373674296
+GB + miesiąc (wrażliwość),I-VI 2024 (BK2% zawieszone),1874.0882161186737,-0.10021137290965491
+GB + miesiąc + zmienne BK2% (wrażliwość),VIII-XII 2023 (BK2% aktywny),1833.7853244229243,0.08287539664981769
+GB + miesiąc + zmienne BK2% (wrażliwość),XII 2023 (panika zakupowa),1921.4236457051097,0.13745333785325872
+GB + miesiąc + zmienne BK2% (wrażliwość),I-VI 2024 (BK2% zawieszone),1873.5375949580955,-0.10058193543940858
+Random Forest - AutoML,VIII-XII 2023 (BK2% aktywny),1665.216320900108,0.9318963532015025
+Random Forest - AutoML,XII 2023 (panika zakupowa),1733.699230604775,0.6136934435599466
+Random Forest - AutoML,I-VI 2024 (BK2% zawieszone),1673.8274547511965,-0.6029935536839536
